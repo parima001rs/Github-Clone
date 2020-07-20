@@ -1,0 +1,112 @@
+body {
+    background-color:#2b3137;
+}
+
+.form {
+    background-color: rgb(250, 251, 252);
+    border-radius: 3px;
+    padding:24px;
+    width:419px;
+    height: 520px;
+    box-sizing:border-box;
+    font-family: "Segoe UI Emoji";
+    font-size:16px;
+    margin-top: 40px;
+
+}
+
+#last {
+    color:rgb(88, 96, 105);
+    font-size: 12px;
+    padding:10px 0; 
+}
+#secondlast {
+    font-size: 12px;
+    padding-bottom:20 px;
+}
+
+.registerbtn {
+  width: 100%;
+  background-color:limegreen;
+  color: rgb(250, 251, 252);
+  padding: 21px 115px;
+  margin: 8px 0px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-family:"Segoe UI Emoji";
+  font-size: 16px;
+}
+
+.registerbtn:hover {
+     background-color:mediumseagreen;
+    }
+
+input[type=text] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  
+}
+#text{
+ font-size: 14px;
+ color: #24292e;
+}
+
+h1 {
+    font-size: 75px;
+    font-family:sans-serif;
+    color: rgb(255, 255, 255);
+    text-align:left;
+    padding: 100px 10px 5px 80px;
+    margin-bottom: 0;
+    
+}
+#para1 {
+    font-size: 22px;
+    font-family:sans-serif;
+    color:lightgray;
+    text-align: left;
+    padding:0 100px 30px 80px;
+}
+em {
+    text-decoration: underline;
+}
+header {
+    z-index: 32;
+    color: rgb(255, 255, 255);
+    background-color: #24292e;
+    font-family:"Segoe UI Emoji";
+}
+
+header ul {
+    list-style: none;
+    padding-left: 0;
+    display: flex;
+    width:80%;
+}
+#icon {
+    width:10%;
+}
+header ul li {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+header li:hover {
+   color:lightgray;
+   cursor: pointer;
+}
+
+section {
+     width:56%;
+}    
+
+main {
+    display: flex;
+}
+
